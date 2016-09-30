@@ -1,0 +1,18 @@
+{
+	"private": true,
+	"name": "example",
+	"description": "Jest tests",
+	"engines": {
+		"node": ">=6.7.0"
+	},
+	"jest": {
+		"testPathDirs": ["<rootDir>/src"],
+		"testPathIgnorePatterns": ["<rootDir>/node_modules"]
+	},
+	"scripts": {
+		"test": "jest || true"
+	},
+	"devDependencies": {
+		"jest": "^15.1.1"
+	}
+}
